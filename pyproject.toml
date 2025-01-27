@@ -1,0 +1,11 @@
+[project]
+name = "feast-benchmarks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "feast[redis]>=0.43.0",
+    "parquet-tools>=0.2.16",
+    "pytest-benchmark>=5.1.0",
+]
